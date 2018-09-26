@@ -1,0 +1,36 @@
+---
+title: "First_Script"
+author: "Shamil"
+date: "September 26, 2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r Chunk1}
+require(ggplot2)
+require(lubridate)
+require(maptools)
+require(leaflet)
+require(leaflet.esri)
+require(leaflet.extras)
+require(tidyverse)
+require(mapview)
+require(maptools)
+require(htmlwidgets)
+require(scales)
+require(grid)
+require(scales)
+require(grid)
+require(raster)
+require(sf)
+require(shiny)
+require(DT)
+require(crosstalk)
+mapevents5 <- bscols(list(slider,l2,l1,l4_new,l3))
+save_html(mapevents5,"try1.html")
+```
+
+
